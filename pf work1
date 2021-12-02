@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{     //nested loop 
+     // written by ali turi
+    // for tabels
+int y;
+int p;
+    for(p=1;p<=10;p++)
+    {
+cout<<"Enter table numbers\n";
+cin>>y;
+for(int i=1; i<=10; i++)
+cout<<y<<"x"<<i<<"="<<y*i<<endl;
+return 0;
+
+}
+}
