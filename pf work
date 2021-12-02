@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main ()
+    {
+ int x,y;
+ cout<<"enter two numbers"<<endl;
+ cin>>x>>y;
+ if(x==y)
+ cout<<"both are equal"<<endl;
+ else
+ if(x<y)
+for(int i=x; i<=y; i++)
+cout<<i<<"\t";
+else
+for(int i=y;i<=x;i++)
+cout<<i<<"\t"<<endl;
+       return 0;
+    }
